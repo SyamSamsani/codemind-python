@@ -1,9 +1,9 @@
 n = int(input())
-count = 0
+flag = 0
 for i in range(1,n):
-    if n % i == 0:
-        count += i
-if count > n:
-    print("True")
+    if n%i == 0:
+        flag += i
+if flag > n:
+    print('True')
 else:
-    print("False")
+    print('False')
