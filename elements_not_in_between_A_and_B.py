@@ -10,5 +10,3 @@ if len(l)>0:
         print(i,end=' ')
 else:
     print('-1')
-
-    
